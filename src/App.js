@@ -39,11 +39,11 @@ function App() {
     <div className = "App">
       <header>Check your weather</header>
       <main>
-        <div className ="searchBox">
+        <div className = "searchBox">
           <input
-            type ="text"
-            className ="searchBar"
-            placeholder ="Enter your city/town..."
+            type = "text"
+            className = "searchBar"
+            placeholder = "Enter your city/town..."
             onChange = {e => setQuery(e.target.value)}
             value = {query}
             onKeyPress = {search}
@@ -54,10 +54,10 @@ function App() {
           <div>
         <div className = "locationBox">
           <div className = "location">{weather.name}, {weather.sys.country}</div>
-          <div className ="date">{datebuilder(new Date())}</div>
+          <div className = "date">{datebuilder(new Date())}</div>
         </div>
-        <div className ="weatherBox">
-          <div className ="temp">
+        <div className = "weatherBox">
+          <div className = "temp">
             {Math.round(weather.main.temp)} °C
           </div>
           <div className = "weather">{weather.weather[0].main}</div>

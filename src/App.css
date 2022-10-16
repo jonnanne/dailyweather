@@ -19,7 +19,7 @@ header{
   font-family: Arial, Helvetica, sans-serif;
   font-variant: small-caps;
   padding: 30px;
-  color: #FFF;
+  color: white;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -100,14 +100,14 @@ main {
 }
 
 .weatherBox .weather {
-  color: #FFF;
+  color: white;
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
 .weatherBox .wind {
-  color: #FFF;
+  color: white;
   font-size: 20px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
